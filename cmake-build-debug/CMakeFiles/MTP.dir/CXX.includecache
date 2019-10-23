@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/store/DEV/MTP/CipherString.hpp
+string
+-
+
+/home/store/DEV/MTP/MtpAnalyzer.cpp
+iostream
+-
+map
+-
+MtpAnalyzer.hpp
+/home/store/DEV/MTP/MtpAnalyzer.hpp
+
+/home/store/DEV/MTP/MtpAnalyzer.hpp
+mtp.hpp
+/home/store/DEV/MTP/mtp.hpp
+
+/home/store/DEV/MTP/mtp.hpp
+vector
+-
+CipherString.hpp
+/home/store/DEV/MTP/CipherString.hpp
+

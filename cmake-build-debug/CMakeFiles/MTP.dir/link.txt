@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/MTP.dir/main.cpp.o CMakeFiles/MTP.dir/CipherString.cpp.o CMakeFiles/MTP.dir/mtp.cpp.o CMakeFiles/MTP.dir/MtpAnalyzer.cpp.o  -o MTP 
