@@ -15,12 +15,16 @@ iostream
 -
 map
 -
+sstream
+-
 MtpAnalyzer.hpp
 /home/store/DEV/MTP/MtpAnalyzer.hpp
 
 /home/store/DEV/MTP/MtpAnalyzer.hpp
 mtp.hpp
 /home/store/DEV/MTP/mtp.hpp
+map
+-
 
 /home/store/DEV/MTP/mtp.hpp
 vector

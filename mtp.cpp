@@ -68,7 +68,7 @@ CipherString Mtp::attack(int fst, int snd) {
      *  - random control characters
      *      (if the character at that position in the other plaintext is a letter with the same case),
      *  - numbers or punctuation
-     *      (if the other character is a letter with different case) e
+     *      (if the other character is a letter with different case)
      *  - flipped
      *      (if the other character is a space).
      **/
@@ -83,8 +83,8 @@ CipherString Mtp::attack(int fst, int snd) {
 void Mtp::log(const std::string& message ){
     for (auto letter : message){
         if (!iscntrl(letter)||letter=='\0')
-            std::cout << letter ;
-        else std::cout << "-";
+            std::cout << letter << " " ;
+        else std::cout << "- ";
     }
     std::cout<< "\n";
 }
